@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.container{
+    background: -webkit-linear-gradient(30deg, #e04684, #ff8742);
+    background: -moz-linear-gradient(30deg, #e04684, #ff8742);
+    background: -o-linear-gradient(30deg, #e04684, #ff8742);
+    background: linear-gradient(120deg, #e04684, #ff8742);
+    max-width: 580px;
+    margin: 0 auto;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.cont-arrow{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+}
+
+.cont-arrow i{
+    font-size: 24px;
+}
+
+.row-header{
+    position: relative;
+    padding: 20px 0;
+}
+
+.row-header h1{
+    text-align: center;
+    margin: 0;
+    color:white;
+    font-size: 30px;
+}
+
+.cont-img-dog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 338px;
+    overflow: hidden;
+}
+
+
+.cont-img-dog img{
+    width: 100%;
+}
+
+.cont-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    margin: auto;
+    padding: 22px 0;
+}
+
+.cont-btns button{
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin:0 5px;
+    box-shadow: 1px 1px 1px #ececec;
+    background-color: white;
+}
+
+.cont-btns button i{
+    font-size: 26px;
+}
+
+.cont-card{
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 3px 2px 1px #ececec;
+    border-radius: 10px;
+}
+
+.cont-desc{
+    padding: 18px;
+    background: white;
+    border: 1px solid #ececec;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cont-desc h2{
+    margin: 0;
+    text-transform: capitalize;
+}
+
+
+.like{
+    color: #EA4634;
+}
+
+.dislike{
+    color:#551a8b;
+}
+
+.return{
+    color:#3E92CC;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
