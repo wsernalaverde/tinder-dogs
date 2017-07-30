@@ -123,3 +123,51 @@ section{
     align-items: center;
     text-decoration: none;
 }
+
+.page-my-likes .row-header h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.page-my-likes .row-header hr{
+    color: white;
+    width: 20%;
+    border-color:white;
+    border-width: 3px 0 0 0;
+    border-style: solid;
+}
+
+.page-my-likes .row-contenido{
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cont-media-object{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    padding: 15px;
+}
+
+.thumbnail-dog{
+    width: 100px;
+    height: 100px;
+}
+
+.thumbnail-dog img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.excerpt-dog{
+    margin-left: 27px;
+}
+
+.excerpt-dog  h2{
+    margin: 0;
+}

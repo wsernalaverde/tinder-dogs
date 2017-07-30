@@ -40,6 +40,10 @@ var tinder = (function () {
         nameDog.innerHTML = name[5];
     }
 
+    let myLikes = function(){
+        
+    }
+
     let init = function () {
         fetch(url)
             .then(function (response) {
@@ -50,6 +54,7 @@ var tinder = (function () {
                 loadingName(json.message);
                 like(json.message);
                 dislike();
+                myLikes();
             })
     }
 
