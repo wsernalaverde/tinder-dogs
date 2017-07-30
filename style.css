@@ -170,4 +170,10 @@ section{
 
 .excerpt-dog  h2{
     margin: 0;
+    text-transform: capitalize;
+}
+
+.title-no-likes{
+    text-align: center;
+    color: #e95971;
 }
