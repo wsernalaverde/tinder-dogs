@@ -1,6 +1,6 @@
 # Dogs's Tinder
 
-Ejercicio de Tinder para perros del Bootcamp de Frontend developes de World Tech Makers.
+Ejercicio de Tinder para perros del Bootcamp de Frontend developers de World Tech Makers.
 
 ## Descripción
 
